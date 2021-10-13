@@ -6,7 +6,7 @@ def evenDash(string):
         if (int(s) % 2) == 0:
             if i < len(string) - 1:
                 if (int(string[i+1]) % 2) == 0:
-                    result = result + "-" + s
+                    result = result + s + "-"
                 else:
                     result += s
             else:
